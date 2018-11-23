@@ -7,8 +7,8 @@ namespace FoodBank.Models
 {
     public class FoodItem
     {
-        public int Calories { get; set; }
-        public int Id { get; set; }
+        public string Calories { get; set; }
+        public string Id { get; set; }
         public string Item_Name { get; set; }
     }
 }

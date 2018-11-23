@@ -24,8 +24,8 @@ namespace FoodBank.Models
                 context.FoodItem.AddRange(
                     new FoodItem
                     {
-                        Calories = 301,
-                        Id = 1997,
+                        Calories = "301",
+                        Id = "1997",
                         Item_Name = "Taco",
                     }
 
